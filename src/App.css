@@ -29,6 +29,7 @@
 
 .stats {
   display: block;
+  text-align: center;
 }
 
 .main {
@@ -38,7 +39,7 @@
   padding-top: 30px;
 }
 
-.img-fluid {
+.profile {
   display: flex;
   object-fit: cover;
   object-position: center;
@@ -56,8 +57,4 @@
   text-align: center;
   color: #9cdbd923;
   margin-top: 20px;
-}
-
-.content > p {
-  padding: 10px;
 }

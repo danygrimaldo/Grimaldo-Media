@@ -7,10 +7,10 @@ export const Home = () => {
   return (
     <Container className="main">
       <Row>
-        <Col className="stats" md={4}>
+        <Col className="stats" lg={4}>
           <Figure>
             <Figure.Image
-              className="m-auto"
+              className="profile"
               alt="Dany Grimaldo Picture"
               src={proPic}
               roundedCircle
@@ -20,7 +20,7 @@ export const Home = () => {
             </Figure.Caption>
           </Figure>
         </Col>
-        <Col md={8}>
+        <Col lg={8}>
           <div>
             <h1 className="title">
               DANY <br /> GRIMALDO
