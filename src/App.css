@@ -27,10 +27,13 @@
   /* position: absolute; */
 }
 
+.stats {
+  display: block;
+}
+
 .main {
   display: flex;
   background-color: rgb(255, 255, 255);
-  min-height: 1800px;
   margin-top: -150px;
   padding-top: 30px;
 }
@@ -43,13 +46,18 @@
   height: 200px;
 }
 
-.avatar {
-  display: flex;
-}
-
 .title {
   font-weight: 900;
-  font-size: 120px;
+  font-size: 80px;
   color: #13294b;
-  margin-top: -30px;
+}
+
+.caption {
+  text-align: center;
+  color: #9cdbd923;
+  margin-top: 20px;
+}
+
+.content > p {
+  padding: 10px;
 }

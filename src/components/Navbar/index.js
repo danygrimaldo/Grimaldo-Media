@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <Router>
       <div className="nav-block">
-        <Navbar collapseOnSelect expand="lg" sticky="top">
+        <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand className="mr-auto" href="/">
             <Image
               className="nav-logo"
