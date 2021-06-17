@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import proPic from "./Images/DG-Profile-Pic.jpg";
 import "../../../src/App.css";
+import PDFviewer from "../../components/PDFviewer";
 
 export const Home = () => {
   return (
@@ -76,9 +77,10 @@ export const Home = () => {
                   <b>Graphic Design</b>
                 </i>
                 <br />
-                Hello there, I am a freelance designer with over 10 years of
+                <PDFviewer />
+                {/* Hello there, I am a freelance designer with over 10 years of
                 experience with Adobe Creative Suites (Photoshop, Illustrator,
-                and InDesign) and print production as a Prepress Technician.
+                and InDesign) and print production as a Prepress Technician. */}
                 <br />
                 <br />
                 <i>
