@@ -20,16 +20,20 @@
 }
 
 .nav-block {
-  background: #9cdbd923;
-  /* background: linear-gradient(-180deg, #13294b 0px, #9cdbd9 100%); */
+  background: rgb(245, 250, 250);
   height: 300px;
   display: block;
-  /* position: absolute; */
+  border-bottom: 8px solid #9cdbd9;
+}
+
+body {
+  background-image: url("./pages/Home/Images/dgc-pattern.jpg");
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .stats {
   display: block;
-  text-align: center;
 }
 
 .main {
@@ -37,19 +41,22 @@
   background-color: rgb(255, 255, 255);
   margin-top: -150px;
   padding-top: 30px;
+  border-radius: 20px;
 }
 
 .profile {
   display: flex;
+  border: 5px solid #9cdbd9;
   object-fit: cover;
   object-position: center;
-  width: 200px;
-  height: 200px;
+  width: 200px !important;
+  height: 200px !important;
 }
 
 .title {
   font-weight: 900;
   font-size: 80px;
+  line-height: 70px;
   color: #13294b;
 }
 
@@ -57,4 +64,10 @@
   text-align: center;
   color: #9cdbd923;
   margin-top: 20px;
+}
+
+hr.rounded {
+  border-top: 3px solid #9cdbd9;
+  border-radius: 5px;
+  margin-top: 40px;
 }
