@@ -4,6 +4,7 @@ import proPic from "./Images/DG-Profile-Pic.jpg";
 import { SocialIcon } from "react-social-icons";
 import "../../../src/App.css";
 import PDFviewer from "../../components/PDFviewer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Home = () => {
   return (
@@ -24,17 +25,23 @@ export const Home = () => {
             </h1>
           </div>
           <br />
-          <SocialIcon
-            className="m-4 auto"
-            url="https://www.instagram.com/grimaldomedia"
-            bgColor="#13294B"
-            fgColor="#9CDBD9"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-
+          <Row>
+            <SocialIcon
+              className="m-4 auto"
+              url="https://www.instagram.com/grimaldomedia"
+              bgColor="#13294B"
+              fgColor="#9CDBD9"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+            <FontAwesomeIcon
+              icon="fa-solid fa-square-envelope"
+              url="cnn.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          </Row>
           <hr class="rounded" />
-
           <Row>
             <Container>
               <p>
