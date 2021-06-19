@@ -1,0 +1,7 @@
+.activeLink {
+  color: rgb(156, 219, 217) !important;
+}
+
+.inactiveLink {
+  color: rgb(19, 41, 75) !important;
+}
