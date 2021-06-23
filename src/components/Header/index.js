@@ -9,13 +9,17 @@ export default function Header() {
   return (
     <Router>
       <div className="header-block">
+      <a href="/" src={Home}>
         <Image
           className="header-logo"
           src={gmLogo}
           alt="grimaldo-media-logo"
           as={Link}
-          to="home"
-        />
+          to="/"
+          href={Home}
+          />    
+      </a>
+        
       </div>
 
       <Switch>

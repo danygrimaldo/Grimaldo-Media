@@ -45,6 +45,7 @@ body {
   padding-top: 30px;
   /* border-radius: 20px; */
   border: 20px solid #13294b;
+  min-height: 2000px;
 }
 
 .profile {
@@ -95,4 +96,8 @@ hr.rounded {
 .socialMedia {
   text-align: right;
   color: #334049;
+}
+
+.pdf {
+  max-width: 100%;
 }

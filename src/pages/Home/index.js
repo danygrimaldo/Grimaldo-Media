@@ -1,10 +1,20 @@
 import React from "react";
-import { Container, Row, Col, Figure } from "react-bootstrap";
+import { Container, Row, Col, Figure, Image } from "react-bootstrap";
 import proPic from "./Images/DG-Profile-Pic.jpg";
 import { SocialIcon } from "react-social-icons";
 import "../../../src/App.css";
+// import page4 from "./Images/portfolioPage_4.jpg";
+// import page5 from "./Images/portfolioPage_5.jpg";
+// import page6 from "./Images/portfolioPage_6.jpg";
+// import page7 from "./Images/portfolioPage_7.jpg";
+// import page8 from "./Images/portfolioPage_8.jpg";
 import PDFviewer from "../../components/PDFviewer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import twregMock from "./Images/twregweb-mock.jpg";
+import pxtbMock from "./Images/pxtb-mock.jpg";
+import cfsMock from "./Images/cfs-mock.jpg";
+
+// import thumbnail from "./Images/portfolio-thumbnail.png";
+// import { Portfolio } from "../../pages/Portfolio";
 
 export const Home = () => {
   return (
@@ -24,23 +34,39 @@ export const Home = () => {
               DANY <br /> GRIMALDO
             </h1>
           </div>
-          <br />
-          <Row>
-            <SocialIcon
-              className="m-4 auto"
-              url="https://www.instagram.com/grimaldomedia"
-              bgColor="#13294B"
-              fgColor="#9CDBD9"
-              target="_blank"
-              rel="noopener noreferrer"
-            />
-            <FontAwesomeIcon
-              icon="fa-solid fa-square-envelope"
-              url="cnn.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            />
-          </Row>
+          <SocialIcon
+            className="mr-2"
+            url="mailto:danygrimaldo@gmail.com"
+            bgColor="#13294B"
+            fgColor="#9CDBD9"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <SocialIcon
+            className="mr-2"
+            url="https://www.linkedin.com/in/dany-grimaldo"
+            bgColor="#13294B"
+            fgColor="#9CDBD9"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <SocialIcon
+            className="mr-2"
+            url="https://github.com/danygrimaldo"
+            bgColor="#13294B"
+            fgColor="#9CDBD9"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <SocialIcon
+            className="mr-2"
+            url="https://www.instagram.com/grimaldomedia"
+            bgColor="#13294B"
+            fgColor="#9CDBD9"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+
           <hr class="rounded" />
           <Row>
             <Container>
@@ -82,15 +108,48 @@ export const Home = () => {
           </Row>
         </Col>
         <Col className="px-4" lg={8}>
-          <Row>
-            <Container className="p-4">
-              <strong>
-                <h2>Graphic Design Portfolio</h2>
-              </strong>
-              <br />
-              <PDFviewer />
-            </Container>
+          <Row className="mb-5">
+            <PDFviewer />
           </Row>
+          {/* <Row>
+            <Carousel fade interval="2500">
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 h-auto"
+                  src={page4}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 h-auto"
+                  src={page5}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 h-auto"
+                  src={page6}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 h-auto"
+                  src={page7}
+                  alt="Fourth slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 h-auto"
+                  src={page8}
+                  alt="Fifth slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Row> */}
 
           <hr class="rounded" />
           <Row>
@@ -99,6 +158,7 @@ export const Home = () => {
                 <h2>Web Design Portfolio</h2>
               </strong>
               <br />
+              <Image src={twregMock} width="100%" />
               <p>
                 <b>The Wiley Real Estate Group</b>
                 <br />
@@ -118,15 +178,17 @@ export const Home = () => {
                   created or editied all of the artwork and photography.
                 </p>
                 <br />
+                <Image src={pxtbMock} width="100%" />
                 <b>Painted By The Bee</b>
                 <br />
-                <a
+                www.paintedbythebee.com - NOT YET LIVE
+                {/* <a
                   href={"https://www.cnn.com"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   www.paintedbythebee.com
-                </a>
+                </a> */}
                 <br />
                 <p>
                   Painted by the Bee, a DIY chalk paint boutique, is my wife's
@@ -136,6 +198,7 @@ export const Home = () => {
                   swatches, and see what projects are available for sale.
                 </p>
                 <br />
+                <Image src={cfsMock} width="100%" />
                 <b>Campfire Stories</b>
                 <br />
                 <a
