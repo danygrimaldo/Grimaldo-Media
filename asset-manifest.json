@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Grimaldo-Media/static/css/main.43700743.chunk.css",
-    "main.js": "/Grimaldo-Media/static/js/main.d0b5b599.chunk.js",
-    "main.js.map": "/Grimaldo-Media/static/js/main.d0b5b599.chunk.js.map",
+    "main.js": "/Grimaldo-Media/static/js/main.04060ade.chunk.js",
+    "main.js.map": "/Grimaldo-Media/static/js/main.04060ade.chunk.js.map",
     "runtime-main.js": "/Grimaldo-Media/static/js/runtime-main.8fa3234f.js",
     "runtime-main.js.map": "/Grimaldo-Media/static/js/runtime-main.8fa3234f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Grimaldo-Media/static/css/2.4c97ca4f.chunk.css",
@@ -13,13 +13,17 @@
     "static/css/main.43700743.chunk.css.map": "/Grimaldo-Media/static/css/main.43700743.chunk.css.map",
     "static/js/2.ab8fb01b.chunk.js.LICENSE.txt": "/Grimaldo-Media/static/js/2.ab8fb01b.chunk.js.LICENSE.txt",
     "static/media/DG-Profile-Pic.91a05dee.jpg": "/Grimaldo-Media/static/media/DG-Profile-Pic.91a05dee.jpg",
+    "static/media/Portfolio-thumbs.5a65f486.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs.5a65f486.jpg",
+    "static/media/Portfolio-thumbs2.24007abe.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs2.24007abe.jpg",
+    "static/media/Portfolio-thumbs3.c9353174.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs3.c9353174.jpg",
+    "static/media/Portfolio-thumbs4.245e1bdc.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs4.245e1bdc.jpg",
+    "static/media/Portfolio-thumbs5.4331d5e2.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs5.4331d5e2.jpg",
+    "static/media/Portfolio-thumbs6.10e03243.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs6.10e03243.jpg",
+    "static/media/Portfolio-thumbs7.b3f39f1e.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs7.b3f39f1e.jpg",
+    "static/media/Portfolio-thumbs8.b9219468.jpg": "/Grimaldo-Media/static/media/Portfolio-thumbs8.b9219468.jpg",
     "static/media/cfs-mock.114b2a1c.jpg": "/Grimaldo-Media/static/media/cfs-mock.114b2a1c.jpg",
     "static/media/App.css": "/Grimaldo-Media/static/media/dgc-pattern.10038b0c.jpg",
     "static/media/grimaldomedia-rgb-logo.dc30cb12.png": "/Grimaldo-Media/static/media/grimaldomedia-rgb-logo.dc30cb12.png",
-    "static/media/portfolioPage_4.ee79d5b7.jpg": "/Grimaldo-Media/static/media/portfolioPage_4.ee79d5b7.jpg",
-    "static/media/portfolioPage_5.c6e786d6.jpg": "/Grimaldo-Media/static/media/portfolioPage_5.c6e786d6.jpg",
-    "static/media/portfolioPage_6.00927ab8.jpg": "/Grimaldo-Media/static/media/portfolioPage_6.00927ab8.jpg",
-    "static/media/portfolioPage_7.f40ac640.jpg": "/Grimaldo-Media/static/media/portfolioPage_7.f40ac640.jpg",
     "static/media/pxtb-mock.635eb214.jpg": "/Grimaldo-Media/static/media/pxtb-mock.635eb214.jpg",
     "static/media/twregweb-mock.dc8ca04a.jpg": "/Grimaldo-Media/static/media/twregweb-mock.dc8ca04a.jpg"
   },
@@ -28,6 +32,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.ab8fb01b.chunk.js",
     "static/css/main.43700743.chunk.css",
-    "static/js/main.d0b5b599.chunk.js"
+    "static/js/main.04060ade.chunk.js"
   ]
 }
