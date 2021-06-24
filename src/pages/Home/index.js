@@ -3,12 +3,12 @@ import { Container, Row, Col, Figure, Image } from "react-bootstrap";
 import proPic from "./Images/DG-Profile-Pic.jpg";
 import { SocialIcon } from "react-social-icons";
 import "../../../src/App.css";
-// import page4 from "./Images/portfolioPage_4.jpg";
-// import page5 from "./Images/portfolioPage_5.jpg";
-// import page6 from "./Images/portfolioPage_6.jpg";
-// import page7 from "./Images/portfolioPage_7.jpg";
+import page4 from "./Images/portfolioPage_4.jpg";
+import page5 from "./Images/portfolioPage_5.jpg";
+import page6 from "./Images/portfolioPage_6.jpg";
+import page7 from "./Images/portfolioPage_7.jpg";
 // import page8 from "./Images/portfolioPage_8.jpg";
-import PDFviewer from "../../components/PDFviewer";
+// import PDFviewer from "../../components/PDFviewer";
 import twregMock from "./Images/twregweb-mock.jpg";
 import pxtbMock from "./Images/pxtb-mock.jpg";
 import cfsMock from "./Images/cfs-mock.jpg";
@@ -109,7 +109,11 @@ export const Home = () => {
         </Col>
         <Col className="px-4" lg={8}>
           <Row className="mb-5">
-            <PDFviewer />
+            {/* <PDFviewer /> */}
+            <Image src={page4} width="100%" />
+            <Image src={page5} width="100%" />
+            <Image src={page6} width="100%" />
+            <Image src={page7} width="100%" />
           </Row>
 
           <hr class="rounded" />
@@ -144,7 +148,7 @@ export const Home = () => {
                 <br />
                 www.paintedbythebee.com - NOT YET LIVE
                 {/* <a
-                  href={"https://www.cnn.com"}
+                  href={"https://www.paintedbythebee.com"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
