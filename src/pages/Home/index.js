@@ -110,10 +110,10 @@ export const Home = () => {
         <Col className="px-4" lg={8}>
           <Row className="mb-5">
             {/* <PDFviewer /> */}
-            <Image src={page4} width="100%" height="auto" />
-            <Image src={page5} width="100%" height="auto" />
-            <Image src={page6} width="100%" height="auto" />
-            <Image src={page7} width="100%" height="auto" />
+            <Image src={page4} width="100%" height="auto" fluid />
+            <Image src={page5} width="100%" height="auto" fluid />
+            <Image src={page6} width="100%" height="auto" fluid />
+            <Image src={page7} width="100%" height="auto" fluid />
           </Row>
 
           <hr class="rounded" />
