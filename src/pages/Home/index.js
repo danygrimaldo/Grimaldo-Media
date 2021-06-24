@@ -3,10 +3,14 @@ import { Container, Row, Col, Figure, Image } from "react-bootstrap";
 import proPic from "./Images/DG-Profile-Pic.jpg";
 import { SocialIcon } from "react-social-icons";
 import "../../../src/App.css";
-import page4 from "./Images/portfolioPage_4.jpg";
-import page5 from "./Images/portfolioPage_5.jpg";
-import page6 from "./Images/portfolioPage_6.jpg";
-import page7 from "./Images/portfolioPage_7.jpg";
+import page1 from "./Images/Portfolio-thumbs.jpg";
+import page2 from "./Images/Portfolio-thumbs2.jpg";
+import page3 from "./Images/Portfolio-thumbs3.jpg";
+import page4 from "./Images/Portfolio-thumbs4.jpg";
+import page5 from "./Images/Portfolio-thumbs5.jpg";
+import page6 from "./Images/Portfolio-thumbs6.jpg";
+import page7 from "./Images/Portfolio-thumbs7.jpg";
+import page8 from "./Images/Portfolio-thumbs8.jpg";
 // import page8 from "./Images/portfolioPage_8.jpg";
 // import PDFviewer from "../../components/PDFviewer";
 import twregMock from "./Images/twregweb-mock.jpg";
@@ -108,12 +112,113 @@ export const Home = () => {
           </Row>
         </Col>
         <Col className="px-4" lg={8}>
-          <Row className="mb-5">
+          <Row>
+            <strong>
+              <h2>Graphic Design Portfolio</h2>
+            </strong>
             {/* <PDFviewer /> */}
-            <Image src={page4} width="100%" height="auto" fluid />
-            <Image src={page5} width="100%" height="auto" fluid />
-            <Image src={page6} width="100%" height="auto" fluid />
-            <Image src={page7} width="100%" height="auto" fluid />
+          </Row>
+          <Row className="mb-5">
+            <Image
+              src={page1}
+              width="50%"
+              height="auto"
+              alt="Painted By The Bee intro"
+              fluid
+            />
+            <Image
+              src={page2}
+              width="50%"
+              height="auto"
+              alt="Painted By The Bee projects"
+              fluid
+            />
+
+            <p className="p-5">
+              This small business shop specializes mainly in painting home decor
+              using Annie Sloan Chalk Paint®. The previous owner registered the
+              business under The Bird and the Bee, however the new young
+              entrepreneur wanted to find a name better suited for her craft,
+              without losing clientele. I pitched the idea of calling it
+              "Painted By The Bee" and she immediately fell in love with it.
+              After a few sketches of bees and paint image references, I
+              designed an icon that symbolized both a bee and a brush.
+            </p>
+            <Image
+              src={page3}
+              width="50%"
+              height="auto"
+              alt="Atlanta NightHawks FC intro"
+              fluid
+            />
+
+            <Image
+              src={page4}
+              width="50%"
+              height="auto"
+              alt="Atlanta NightHawks FC projects"
+              fluid
+            />
+            <p className="p-5">
+              In 2013, my friends and I started a team at a local soccer league.
+              For the most part, we all played on the same team since we were
+              young teenagers so naturally, I wanted something that would look
+              legit. It was my way of trying to get everyone excited and proud
+              to play every week. I someday hope to push this idea further and
+              start a club that would develop youth players into playing at some
+              of the most prestigious and competitive levels.
+            </p>
+            <Image
+              src={page5}
+              width="50%"
+              height="auto"
+              alt="Gemelos Shaved Ice intro"
+              fluid
+            />
+            <Image
+              src={page6}
+              width="50%"
+              height="auto"
+              alt="Gemelos Shaved Ice projects"
+              fluid
+            />
+            <p className="p-5">
+              "Illustrative, bright and fun" were the words used to describe
+              what this client was looking for in his brand. Gemelos, which is
+              spanish for twins, lead to the idea of having two identical
+              illustrations form into one logo. I chose to use bright pastel
+              colors, to keep it playful and fruitful, along with a font that
+              would match its' personality. After a few rounds of revisions and
+              thumbnails, the client was thrilled when I presented him with this
+              one.
+            </p>
+            <Image
+              src={page7}
+              width="50%"
+              height="auto"
+              alt="Tato Libre intro"
+              fluid
+            />
+            <Image
+              src={page8}
+              width="50%"
+              height="auto"
+              alt="Tato Libre projects"
+              fluid
+            />
+            <p className="p-5">
+              On April 10, 2019, my brother Renato Grimaldo passed away from
+              pancreatic cancer at the age of 28. He was such a lover of coffee
+              and we often discussed how we should start a coffee club.
+              Unfortunately we never had the opportunity to do that, so I
+              dedicated my last project to him. "Tato" was the nickname I gave
+              him when we were toddlers, and Libre in spanish means "to be
+              free". I illustrated a simplified torch similar to the one seen on
+              the Statue of Liberty and formed it into the shape of a reusable
+              coffee cup. The "T" was designed to be a bit script-like, to play
+              on the illusion of smoke, but I also purposely had it form the
+              shape of a cancer ribbon flying away with the wind.
+            </p>
           </Row>
 
           <hr class="rounded" />
