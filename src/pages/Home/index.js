@@ -111,45 +111,6 @@ export const Home = () => {
           <Row className="mb-5">
             <PDFviewer />
           </Row>
-          {/* <Row>
-            <Carousel fade interval="2500">
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 h-auto"
-                  src={page4}
-                  alt="First slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 h-auto"
-                  src={page5}
-                  alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 h-auto"
-                  src={page6}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 h-auto"
-                  src={page7}
-                  alt="Fourth slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 h-auto"
-                  src={page8}
-                  alt="Fifth slide"
-                />
-              </Carousel.Item>
-            </Carousel>
-          </Row> */}
 
           <hr class="rounded" />
           <Row>
@@ -163,7 +124,7 @@ export const Home = () => {
                 <b>The Wiley Real Estate Group</b>
                 <br />
                 <a
-                  href={"https://www.wileyrealestate.com"}
+                  href={"http://www.wileyrealestate.com"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
