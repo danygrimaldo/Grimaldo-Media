@@ -111,7 +111,7 @@ export const Home = () => {
             </Container>
           </Row>
         </Col>
-        <Col className="px-4" lg={8}>
+        <Col className="px-4" xs={12} lg={8}>
           <Row>
             <strong>
               <h2>Graphic Design Portfolio</h2>
@@ -122,16 +122,12 @@ export const Home = () => {
             <Image
               className="portfolioThumbnails"
               src={page1}
-              // width="50%"
-              // height="auto"
               alt="Painted By The Bee intro"
               fluid
             />
             <Image
               className="portfolioThumbnails"
               src={page2}
-              // width="50%"
-              // height="auto"
               alt="Painted By The Bee projects"
               fluid
             />
@@ -149,8 +145,6 @@ export const Home = () => {
             <Image
               className="portfolioThumbnails"
               src={page3}
-              // width="50%"
-              // height="auto"
               alt="Atlanta NightHawks FC intro"
               fluid
             />
@@ -158,8 +152,6 @@ export const Home = () => {
             <Image
               className="portfolioThumbnails"
               src={page4}
-              // width="50%"
-              // height="auto"
               alt="Atlanta NightHawks FC projects"
               fluid
             />
@@ -175,16 +167,12 @@ export const Home = () => {
             <Image
               className="portfolioThumbnails"
               src={page5}
-              // width="50%"
-              // height="auto"
               alt="Gemelos Shaved Ice intro"
               fluid
             />
             <Image
               className="portfolioThumbnails"
               src={page6}
-              // width="50%"
-              // height="auto"
               alt="Gemelos Shaved Ice projects"
               fluid
             />
@@ -201,16 +189,12 @@ export const Home = () => {
             <Image
               className="portfolioThumbnails"
               src={page7}
-              // width="50%"
-              // height="auto"
               alt="Tato Libre intro"
               fluid
             />
             <Image
               className="portfolioThumbnails"
               src={page8}
-              // width="50%"
-              // height="auto"
               alt="Tato Libre projects"
               fluid
             />
