@@ -93,20 +93,19 @@ export const Home = () => {
                 During the 2020 pandemic I was laid off and decided to enroll at
                 Georgia Tech's Full-Stack Web Development Bootcamp. I was
                 introduced to HTML, CSS, and Javascript languages. I am most
-                comfortable building my applications using ReactJS frameworks.
-                My passion for technology continues to evolve even after
-                completing the course.
+                comfortable building my applications using ReactJS library. My
+                passion for technology continues to evolve even after completing
+                the course.
                 <br />
                 <br />
                 <i>
                   <b>Hobbies</b>
                 </i>
                 <br />I am an Atlanta, Georgia native and an avid sports fan. I
-                enjoy futbol, football, and basketball and baseball during the
-                playoff season. My wife and I live with our cat, Teddy, in the
-                Vinings area. In our free time, we enjoy listening to music,
-                attending art and music events, cooking peruvian and mexican
-                dishes and also meeting up with friends.
+                enjoy soccer and football. My wife and I live with our cat,
+                Teddy, in the Vinings area. In our free time, we enjoy listening
+                to music, attending art and music events, cooking peruvian and
+                mexican dishes and also meeting up with friends.
               </p>
             </Container>
           </Row>
