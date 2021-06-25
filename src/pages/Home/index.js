@@ -93,9 +93,9 @@ export const Home = () => {
                 During the 2020 pandemic I was laid off and decided to enroll at
                 Georgia Tech's Full-Stack Web Development Bootcamp. I was
                 introduced to HTML, CSS, and Javascript languages. I am most
-                comfortable building my applications using ReactJS library. My
-                passion for technology continues to evolve even after completing
-                the course.
+                comfortable building my applications using the ReactJS library.
+                My passion for technology continues to evolve even after
+                completing the course.
                 <br />
                 <br />
                 <i>
