@@ -11,14 +11,10 @@ import page5 from "./Images/Portfolio-thumbs5.jpg";
 import page6 from "./Images/Portfolio-thumbs6.jpg";
 import page7 from "./Images/Portfolio-thumbs7.jpg";
 import page8 from "./Images/Portfolio-thumbs8.jpg";
-// import page8 from "./Images/portfolioPage_8.jpg";
-// import PDFviewer from "../../components/PDFviewer";
+
 import twregMock from "./Images/twregweb-mock.jpg";
 import pxtbMock from "./Images/pxtb-mock.jpg";
 import cfsMock from "./Images/cfs-mock.jpg";
-
-// import thumbnail from "./Images/portfolio-thumbnail.png";
-// import { Portfolio } from "../../pages/Portfolio";
 
 export const Home = () => {
   return (
@@ -115,7 +111,6 @@ export const Home = () => {
             <strong>
               <h2>Graphic Design Portfolio</h2>
             </strong>
-            {/* <PDFviewer /> */}
           </Row>
           <Row className="mb-2">
             <Image
