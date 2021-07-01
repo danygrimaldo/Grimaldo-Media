@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import gmLogo from "./Assets/grimaldomedia-rgb-logo.png";
 import { Home } from "../../pages/Home";
 import "./style.css";
