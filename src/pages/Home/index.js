@@ -237,14 +237,13 @@ export const Home = () => {
                 <Image src={pxtbMock} width="100%" />
                 <b>Painted By The Bee</b>
                 <br />
-                www.paintedbythebee.com - NOT YET LIVE
-                {/* <a
-                  href={"https://www.paintedbythebee.com"}
+                <a
+                  href={"http://www.paintedbythebee.com"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   www.paintedbythebee.com
-                </a> */}
+                </a>
                 <br />
                 <p>
                   Painted by the Bee, a DIY chalk paint boutique, is my wife's
